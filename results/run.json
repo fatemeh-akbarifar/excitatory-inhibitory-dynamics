@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "uncoupled_error": 4.713562873348565e-12,
+    "jacobian_error": 6.119993400943713e-11,
+    "refinement": [
+      {
+        "P": 0.0,
+        "maximum_trajectory_difference": 5.755507181959274e-12
+      },
+      {
+        "P": 1.0,
+        "maximum_trajectory_difference": 6.904267935148312e-09
+      },
+      {
+        "P": 4.0,
+        "maximum_trajectory_difference": 2.06422173798515e-09
+      }
+    ]
+  },
+  "conditions": 189,
+  "behaviour_counts": {
+    "apparently-periodic": 117,
+    "near-steady": 66,
+    "unresolved": 6
+  },
+  "perturbations": [
+    {
+      "P": 0.0,
+      "recovery_time": 42.150000000000006,
+      "original_amplitude": 6.340452704534094e-09,
+      "perturbed_amplitude": 0.00014848657705694712
+    },
+    {
+      "P": 1.0,
+      "recovery_time": null,
+      "original_amplitude": 0.7948687527168911,
+      "perturbed_amplitude": 0.7948702831714416
+    }
+  ],
+  "python": "3.9.13",
+  "numpy": "1.23.5",
+  "scipy": "1.13.1",
+  "source_sha256": "0df2849ed8df992a7e72cfe261cd1299da6c648f11efe45171241d5cae0c9a42",
+  "data": "Simulated; model time is dimensionless"
+}
